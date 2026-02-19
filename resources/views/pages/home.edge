@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto px-4 py-6">
+                <h1 class="text-3xl font-bold text-gray-900">Accueil</h1>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Groupes Section -->
+                <section class="bg-white rounded-lg shadow p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Groupes</h2>
+                    <ul class="space-y-3">
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <span class="w-3 h-3 bg-blue-500 rounded-full mr-3"></span>
+                            <span class="text-gray-700">Développeurs Web</span>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <span class="w-3 h-3 bg-green-500 rounded-full mr-3"></span>
+                            <span class="text-gray-700">Designers UI/UX</span>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <span class="w-3 h-3 bg-purple-500 rounded-full mr-3"></span>
+                            <span class="text-gray-700">DevOps & Infrastructure</span>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <span class="w-3 h-3 bg-red-500 rounded-full mr-3"></span>
+                            <span class="text-gray-700">QA Testing</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Utilisateurs Section -->
+                <section class="bg-white rounded-lg shadow p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Utilisateurs</h2>
+                    <ul class="space-y-3">
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">JD</div>
+                            <div>
+                                <p class="text-gray-900 font-semibold">Jean Dupont</p>
+                                <p class="text-sm text-gray-500">Développeur</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <div class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">MB</div>
+                            <div>
+                                <p class="text-gray-900 font-semibold">Marie Bernard</p>
+                                <p class="text-sm text-gray-500">Designer</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">PL</div>
+                            <div>
+                                <p class="text-gray-900 font-semibold">Pierre Laurent</p>
+                                <p class="text-sm text-gray-500">DevOps</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center p-3 bg-gray-50 rounded hover:bg-gray-100">
+                            <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center text-white font-bold mr-3">SC</div>
+                            <div>
+                                <p class="text-gray-900 font-semibold">Sophie Clavet</p>
+                                <p class="text-sm text-gray-500">QA Engineer</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
