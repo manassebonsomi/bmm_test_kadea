@@ -8,23 +8,11 @@
 */
 
 import router from '@adonisjs/core/services/router'
+import UsersController from '#controllers/users_controller'
 
-router.get('/', async ({ view }) => {
-  return view.render('pages/login')
-})
-
-router.get('/signup', async ({ view }) => {
-  return view.render('pages/signup')
-})
+router.get('/register', [UsersController, 'showRegister'])
+router.post('/users', [UsersController, 'store'])
 
 router.get('/home', async ({ view }) => {
   return view.render('pages/home')
-})
-
-router.get('/profile', async ({ view }) => {
-  return view.render('pages/profile')
-})
-
-router.get('/settings', async ({ view }) => {
-  return view.render('pages/settings')
 })
