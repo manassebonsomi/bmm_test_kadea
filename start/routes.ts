@@ -20,3 +20,11 @@ router.get('/signup', async ({ view }) => {
 router.get('/home', async ({ view }) => {
   return view.render('pages/home')
 })
+
+router.get('/profile', async ({ view }) => {
+  return view.render('pages/profile')
+})
+
+router.get('/settings', async ({ view }) => {
+  return view.render('pages/settings')
+})
